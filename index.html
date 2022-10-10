@@ -1,437 +1,738 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Anthony Mipawa</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#expr">Experiences</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Andrea</title>
+</head>
+<body>
+<!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">AM</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#newsletter" class="nav__link">
+                            <i class="uil uil-newspaper nav__icon"></i> Blog
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-comment-info nav__icon"></i></i> Contact Me
+                        </a>
+                    </li>
                 </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!--Theme change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
             </div>
         </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Anthony
-                        <span class="text-primary">Mipawa</span>
-                    </h1>
-                    <div class="subheading mb-5-22"> Data Scientist || Zindi Ambassador || <a href="https://twitter.com/Udomaic">Community Manager @UDOM AI COMMUNITY</a></div>
-                    <div class="subheading mb-5">
-                         Dodoma ,Tanzania . phone: (+255) 768 596 879·
-                        <a href="mailto:name@email.com">hilanth7@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5">I’m a fourth year Software Engineering student, UDOM AI Community
-                        Manager, Zindi Ambassador and Microsoft Student Learn Ambassador student at the University of Dodoma, Tanzania.
-                        Passionate about the data science field with 2 year experience in python,Data
-                        Analysis, Predictive Modelling Natural Language Processing and computer vision.
-                        Focusing on  Business Analysis and Natural Language Processing as my niche. I believe that data tells us more
-                        than just numbers. My pressure to facilitate African students and young generation interested in
-                        doing Data science so that to rise our productivity and solving real life problems.
-                        </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/anthony-mipawa-b92bb6177/?originalSubdomain=tz"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/Tonyloyt/"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://twitter.com/LoytTony/"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="https://www.kaggle.com/mipawa"><i class="fab fa-kaggle"></i></a>
-                        <a class="social-icon" href="https://zindi.africa/users/Tony700ai"><i class="fas fa-globe-africa"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience in terms of Projects-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <!-- AI projects -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Machine Learning</h3>
-                            <div class="subheading mb-3">Project #1 Hotspots By UmojaHack Africa :</div>
-                            <p>Was about to predict where and when the fire will occur in the DRC, this was the inter-university hackathon hosted by Zindi. I used Ensemble Algorithms - catboost and lightGBM to develop the Machine leaning Model. Finally placed 44/297.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Deep Learning</h3>
-                            <div class="subheading mb-3">Project #2 Cancer Diagnosis:</div>
-                            <p>was the web based AI system that help to increase speed and Accuracy of diagnosis and treatments of cancer in Tanzania which is integrated with Deep learning Model. The project was done in group of five members as team Elixir.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2020 - present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Data Science & Machine Learning</h3>
-                            <div class="subheading mb-3">Project #3 Finacial Inclusion In Africa By Zindi Mentorship Program:</div>
-                            <p>Was about to predict who is more likely to posses Bank Account based on datasets collected from four East African countries(Kenya, Rwanda ,Uganda and Tanzania).
-                                I used Ensemble Algorithms - Gradient Boost and LightGBM to develop the Machine learning Model. Finally placed 1/17.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2020  </span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Machine Learning</h3>
-                            <div class="subheading mb-3">Project #4 Urban Air Pollution :</div>
-                            <p>Was about to use satellite data to predict the air quality of the city, this was the hackathon hosted by zindi . I used Machine learning to develop the model by using ensemble algorithms - catboost I finally placed 39/126 .</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2020</span></div>
-                    </div>
-                    <!-- added -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Natural Language Processing</h3>
-                            <div class="subheading mb-3">Project #5 COVID - 19 Tweet Posts Classification:</div>
-                            <p>was about to use tweets posts to develop machine learning to asses/classify
-                                the posts with COVID- 19 contents and that not about. The project carried
-                                out with my team members(2) by using simple transformers algorithms Bert
-                                and Roberta . We finally ranked 10/142.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Machine Learning</h3>
-                            <div class="subheading mb-3">Project #6 Childline Kenya Call Volume Prediction Challenge By
-                                Zindi Mentorship Program:</div>
-                            <p>Was about to create a forecast model to predict the number of incoming
-                                calls that Childline Kenya will receive per hour per day. The challenge
-                                carried out with my team members(2) by using Ensemble algorithms to
-                                develop machine Learning Model. We finally ranked 2/16.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">july 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Image Classification</h3>
-                            <div class="subheading mb-3">Project #7 Spot the Mask Challenge:</div>
-                            <p>was the hackathon hosted by zindi to develop the machine learning
-                                algorithm to classify image with people wearing face mask or not .The
-                                project carried out with my team members(2) by using fastai algorithm . We
-                                finally ranked 25/147.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Natural Language Processing</h3>
-                            <div class="subheading mb-3">Project #8 Swahili News Classification:</div>
-                            <p>was the hackathon hosted by zindi to develop the machine learning
-                                algorithm to classify image with people wearing face mask or not .The
-                                project carried out with my team members(2) by using fastai algorithm . We
-                                finally ranked 25/147.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
+    </header>
+
+<!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/anthonymipawa/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/Tonyloyt/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://mipawa.medium.com/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-medium-m"></i>
+                        </a>
+                        <a href="https://twitter.com/LoytTony" target="_blank" class="home__social-icon">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Machine Learning</h3>
-                            <div class="subheading mb-3">Project #9 Sendy - Delivery Rider Response Challenge| UmojaHack2021:</div>
-                            <p>The objective was to build a machine learning model to predict whether a rider will accept,decline or 
-                                ignore an order sent by customers.The target was to improve customer
-                                experience and create more effective service to users at Sendy company. My solution
-                                ranked number six and took 2nd prize for this challenge overall.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2021</span></div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <image class="home__blob-img" x=0 y=0 xlink:href="assets/img/me.png"/>
+                        </svg>
+
                     </div>
-                    <!-- End of AI projects -->
-                    <!-- Web projects -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Application</h3>
-                            <div class="subheading mb-3">Project #10 Loadly Web Application:</div>
-                            <p>Was developed in team of 6 menbers by using Laravel web application
-                                Framework. The web application is for dry cleaning,wash & fold, hang dry
-                                services management at <a href="https://www.broxcomputers.com/">broxcomputers</a> </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">september 2020</span></div>
+                    <div class="home__data">
+                        <h2 class="home__subtitle">This is</h2>
+                        <h1 class="home__title">Anthony</h1>
+                        <!-- <h5 class="home__aka">aka AI Coding</h5> -->
+                        <h3 class="home__subtitle">Software Engineer</h3>
+                        <p class="home__description">The best way to predict the future is to implement it.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
                     </div>
-                    <!-- End of Web projexts -->
-                    <!-- Mobile Application -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Mobile Application</h3>
-                            <div class="subheading mb-3">Project #10 MediaSpace Mobile Application:</div>
-                            <p>was to develop story telling application , was did by using flutter framework
-                                in a team of three developers at <a href="https://www.broxcomputers.com/">broxcomputers</a> </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">october 2020</span></div>
-                    </div>
-                    <!-- End of Mobile Application projects  -->
                 </div>
-            </section>
-            <hr class="m-0" />
 
-            <!--Other Experiences-->
-            <section class="resume-section" id="expr">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experiences & Volunteering</h2>
+                <div class="home_scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down homw__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Zindi Africa </h3>
-                            <div class="subheading mb-3">Zindi Ambassador:</div>
-                            <p>Facilitate and Lead African young generation to join Data science career. <br>
-                                 Organizing hackathon at my campus.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2020 -- present </span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Microsoft </h3>
-                            <div class="subheading mb-3">Microsoft Learn Student Ambassador:</div>
-                            <p>Help my fellow students on career growth. <br>
-                                Develop technical and career skills for the future. <br>
-                                Self learning cloud services using Azure as a tool.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2020 -- present </span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">The University of Dodoma</h3>
-                            <div class="subheading mb-3">Organiser of UmojaHack2021:</div>
-                            <p>Facilitate and organize UmojaHack2021 machine learning Hackathon at my campus
-                                as a representative/leader.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March - 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Pycon Tanzania </h3>
-                            <div class="subheading mb-3">Speaker on pycon conference 2020:</div>
-                            <p>I was speaking on guidances on how to dive in Data science and Machine Learning for a beginner and Intermediate Data enthutiasis</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December - 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">BroxComputers </h3>
-                            <div class="subheading mb-3">Software Developer:</div>
-                            <p>web Application development using Laravel Framework & Mobile development using Flutter</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August - November - 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Zindi Africa</h3>
-                            <div class="subheading mb-3">Data Scientist</div>
-                            <p>Exploring different real world challenges , Learning on how to solve and Impleament thieir solutions by using AI</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2019 - present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University Of Dodoma </h3>
-                            <div class="subheading mb-3">Community Manager:</div>
-                            <p>Organisor of Community weekly sessions & Facilitator of  young generation to Learn Artificial Intelligence</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2020 -  2021 </span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University Of Dodoma </h3>
-                            <div class="subheading mb-3">Industrial Training - 02[Machine Learning Engineer]</div>
-                            <p> Introduction to Version control - git</p> <br/>
-                           
-                            <p>Development of Machine Learning Models & development of  Deep learning Models[Music Recommendation System]</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">july 2019 - september 2019</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University Of Dodoma </h3>
-                            <div class="subheading mb-3"> Industrial Training- 01[Junior Data scientist]</div>
-                            <p>Introduction to Data Science Using python Programming Language</p> <br/> <p>Introduction to Linux Administration system</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary"> july 2018 - september 2018 </span></div>
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title"> About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container desc_display">
+
+                    <p>
+                        I'm a machine learning enthusiast with a background in software engineering who is interested in providing organizations with effective and scalable solutions to problems. 
+                        possesses a wide range of experience in framing issues for business cases, gathering and analyzing data, executing AI system trials and tests, creating and implementing ML systems, 
+                        and reworking business procedures as a part of delivering compelling values to major clients.
+                        <br><br>
+                        Also, passionate and strategic about leveraging my skills to help young people achieve their professional development goals and educate the local community on technology usage best practices.
+                        As an ambassador for organizations like Microsoft and Zindi Africa, I made significant contributions to many businesses and African communities.
+                    </p>
+            </div>
+
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">Qualifications</h2>
+            <div class="section__subtitle">My personal journey</div>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
                     </div>
 
-                </div>
-            </section>
-            <!--End of Experiences -->
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Dodoma</h3>
-                            <div class="subheading mb-3">Bachelor of Science </div>
-                            <div>Software Engineering</div>
-                            <p>Graduation 2021</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2017- present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Tanga Techinical High School</h3>
-                            <div class="subheading mb-3"></div>
-                            <p>Physics - Chemistry  - Advanced Mathematics</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2015 - May 2017</span></div>
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
                     </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
 
-                        <li class="list-inline-item">Python</li>
-                        <li class="list-inline-item">SQL</li>
-                        <li class="list-inline-item">Django</li>
-                        <li class="list-inline-item">Java</li>
-                        <li class="list-inline-item">Flutter</li>
-                        <li class="list-inline-item">Dart</li>
-                        <li class="list-inline-item">Laravel</li>
-                        <li class="list-inline-item">JavaScript</li>
-                        <li class="list-inline-item">PHP</li>
-                        <li class="list-inline-item">HTML</li>
-                       
-                    </ul>
-                    <div class="subheading mb-3">Others</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Anaconda,Jupyter
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Keras
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Google colab
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Command Line,
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Image Classification 
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Git version control & Tableau for Data Visualization.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Predictive Model Analysis & Time series.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                         Tweets Tweets segmentation Analysis , 
-                        </li>
-                    </ul>
+                <div class="qualification__sections">
+                    <!--===============================QUALIFICATION CONTENT 1 ===========================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--===============================QUALIFICATION 1 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Applied Data Science Lab</h3>
+                                <span class="qualification__subtitle">WorldQuant University, USA</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    February - September 2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!--===============================QUALIFICATION 2 ===========================-->
+    
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Bsc. Software Engineering</h3>
+                                <span class="qualification__subtitle">University of Dodoma, Tanzania</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    November 2017 - December 2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===============================QUALIFICATION CONTENT 2 ===========================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--===============================QUALIFICATION 1 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Software Engineer</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.neurotech.africa/" target="_blank">Neurotech Africa</a>
+                                </span>
+                                <h5 class="qualification__location">Dar es salaam, Tanzania</h5>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    February 2022 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--===============================QUALIFICATION 2 ===========================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Machine Learning Engineer</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.afropavoanalytics.com/" target="_blank">Afropavo Analytics</a>
+                                </span>
+                                <h5 class="qualification__location">Dar es salaam, Tanzania</h5>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    June 2022 - present
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--===============================QUALIFICATION 3 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Data Scientist</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.zindiafrica.com/" target="_blank">Zindi Africa</a>
+                                </span>
+                                <h5 class="qualification__location">Remotely</h5>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    December 2019 - January 2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--===============================QUALIFICATION 4 ===========================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Software Developer</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.broxcomputers.com/" target="_blank">BroxComputers</a>
+                                </span>
+                                <h5 class="qualification__location">Arusha, Tanzania</h5>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    June 2020 - October 2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>1.Music  &nbsp;&nbsp;   2. Fashion stylish  &nbsp;&nbsp;   3. Learning new things &nbsp;&nbsp;  4. Football</p>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">My works</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                     <!--======================== PORTFOLIO 0 =============-->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/bg-1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Audio Analysis</h3>
+                            <p class="portfolio__description">
+                                I wanted to gain experience on working with unstrustured data(audio). using Librosa python library created an audo analysis from waveform, spectrogram and Mel Frequency Cepstral Coefficients. was very interesting finding..
+                            </p>
+                            <a href="https://medium.com/neurotech-africa/audio-analysis-with-librosa-258c55e6e561" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                     <!--======================== PORTFOLIO 0-1 =============-->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/audio-class.jpeg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Audio Classification</h3>
+                            <p class="portfolio__description">
+                            Using cat and dog audios datasets. I developed a deep learning model to perform classification at the end i documented every step on an article and deployed the model on hugging face space.
+                            </p>
+                            <a href="https://huggingface.co/spaces/neurotech/cat_dog_audio_classifier" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--======================== PORTFOLIO 1 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/bg.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Decision in Swahili social media sentiments</h3>
+                            <p class="portfolio__description">
+                                Developed a machine learning model for Swahili social media sentiment classification with the interpretability of each prediction of our final model using Local Interpretable Model-Agnostic Explanations.
+                            </p>
+                            <a href="https://medium.com/neurotech-africa/the-cause-of-a-decision-in-swahili-social-media-sentiments-a2e095fad45" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--======================== PORTFOLIO 2 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/dig-edu.jpeg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Digital Learning Education App</h3>
+                            <p class="portfolio__description">
+                                Student drop-out and performance prediction solution,  Using machine learning model from students historical data. <br> The app can predict the performance of a students and likehood of a student to dropout from school due to diffrent factor The application is functional for both online prediction and batch data prediction.
+                            </p>
+                            <a href="https://avengers-digital-learning-educ.herokuapp.com/" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--======================== PORTFOLIO 3 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/sendy.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Delivery Riders Resiponse</h3>
+                            <p class="portfolio__description">
+                                Developed a machine learning Model for Sendy company to predict whether a rider will accept, decline or ignore an order sent to them. 
+                            </p>
+                            <a href="https://github.com/Tonyloyt/Delivery-Riders-Response-Challenge" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                     <!--======================== PORTFOLIO 4 =============-->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/bg-2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Email Automation with python</h3>
+                            <p class="portfolio__description">
+                                Implemented a python script to automate email process to multiple receipts from excel file... 
+                            </p>
+                            <a href="https://github.com/Tonyloyt/Email-Automation-with-python" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                     <!--======================== PORTFOLIO 5 =============-->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/tourism.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Tanzania Tourism Expenditure</h3>
+                            <p class="portfolio__description">
+                                Build a machine learning Model to predict the cost expected to be spent by tourist when visit Tanzania national parks based on the analysis of tourists historical data.
+                            </p>
+                            <a href="https://github.com/Tonyloyt/Tourism-Expenditure-in-Tanzania-Analysis" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                     <!--======================== PORTFOLIO 6 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/banking.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Swahili Text to Speech App</h3>
+                            <p class="portfolio__description">
+                               Build a Swahili text to speech App, using Google Application programming interface, the solution deployed on Hugging face space.
+                            </p>
+                            <a href="https://huggingface.co/spaces/tonytz/SwahiliTTS" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
+                <!--============ Add Arrows =============-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!--============ Add Pagination =============-->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== PAPERS ====================-->
+        <section class="papers section" id="papers">
+            <h2 class="section__title">Blog Post Published</h2>
+            <span class="section__subtitle">My writing contributions</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--====================== SKILLS 1 =============================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-file-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Low Resource Languages Vs Conversational Artificial Intelligence</h1>
+                                <span class="skills__subtitle">September 2022</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <!-- <span class="skills__subtitle">Coverage of challenges .<br></span> -->
+                                <i class="skills__subtitle">Low-resource language, Natural Language Processing.</i>
+                                <span class="skills__subtitle"><br><br></span>
+                                <a href="https://medium.com/neurotech-africa/low-resource-languages-vs-conversational-artificial-intelligence-1c7a3e47d4a7" class="button button--flex button--small portfolio__button">
+                                    Read here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--====================== SKILLS 2 =============================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-file-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">The cause of a decision in Swahili social media sentiments</h1>
+                                <span class="skills__subtitle">August 2022</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <!-- <span class="skills__subtitle">Joakim Bruslund Haurum, Christian Nygaard Daugbjerg, Péter Rohoska, Andrea Coifman, Anne Juhler Hansen & Martin Kraus.<br></span> -->
+                                <i class="skills__subtitle">Sentiment Analysis, natural Language Processing</i>
+                                <span class="skills__subtitle"><br><br></span>
+                                <a href="https://medium.com/neurotech-africa/the-cause-of-a-decision-in-swahili-social-media-sentiments-a2e095fad45" class="button button--flex button--small portfolio__button">
+                                    Read here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <!--====================== SKILLS 2 =============================-->
+                     <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-file-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Swahili text classification using transformers</h1>
+                                <span class="skills__subtitle">June 2022</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <!-- <span class="skills__subtitle">Joakim Bruslund Haurum, Christian Nygaard Daugbjerg, Péter Rohoska, Andrea Coifman, Anne Juhler Hansen & Martin Kraus.<br></span> -->
+                                <i class="skills__subtitle">Sentiment Analysis,Transfomers, natural Language Processing</i>
+                                <span class="skills__subtitle"><br><br></span>
+                                <a href="https://medium.com/neurotech-africa/swahili-text-classification-using-transformers-e21976153fcc" class="button button--flex button--small portfolio__button">
+                                    Read here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <!--====================== SKILLS 2 =============================-->
+                     <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-file-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Understanding How to Evaluate Textual Problems</h1>
+                                <span class="skills__subtitle">September 2022</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <!-- <span class="skills__subtitle">Joakim Bruslund Haurum, Christian Nygaard Daugbjerg, Péter Rohoska, Andrea Coifman, Anne Juhler Hansen & Martin Kraus.<br></span> -->
+                                <i class="skills__subtitle">Evaluation Metrics, natural Language Processing</i>
+                                <span class="skills__subtitle"><br><br></span>
+                                <a href="https://medium.com/neurotech-africa/understanding-how-to-evaluate-textual-problems-f9bba566498a" class="button button--flex button--small portfolio__button">
+                                    Read here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <!--====================== SKILLS 2 =============================-->
+                     <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-file-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Data augmentation in natural language processing</h1>
+                                <span class="skills__subtitle">August 2022</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <!-- <span class="skills__subtitle">Joakim Bruslund Haurum, Christian Nygaard Daugbjerg, Péter Rohoska, Andrea Coifman, Anne Juhler Hansen & Martin Kraus.<br></span> -->
+                                <i class="skills__subtitle">Data Augumentation, natural Language Processing</i>
+                                <span class="skills__subtitle"><br><br></span>
+                                <a href="https://medium.com/neurotech-africa/data-augmentation-in-natural-language-processing-2f29578c6740" class="button button--flex button--small portfolio__button">
+                                    Read here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <!--====================== SKILLS 2 =============================-->
+                     <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-file-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">The Art of communicating results in data science</h1>
+                                <span class="skills__subtitle">June 2022</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <!-- <span class="skills__subtitle">Joakim Bruslund Haurum, Christian Nygaard Daugbjerg, Péter Rohoska, Andrea Coifman, Anne Juhler Hansen & Martin Kraus.<br></span> -->
+                                <i class="skills__subtitle">Data science, communicating results</i>
+                                <span class="skills__subtitle"><br><br></span>
+                                <a href="https://medium.com/neurotech-africa/the-art-of-communicating-results-in-data-science-4be5070a3b07" class="button button--flex button--small portfolio__button">
+                                    Read here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <!--====================== SKILLS 2 =============================-->
+                     <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-file-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Audio classification using deep learning</h1>
+                                <span class="skills__subtitle">May 2022</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <!-- <span class="skills__subtitle">Joakim Bruslund Haurum, Christian Nygaard Daugbjerg, Péter Rohoska, Andrea Coifman, Anne Juhler Hansen & Martin Kraus.<br></span> -->
+                                <i class="skills__subtitle">Audio Analysis, Deep Learning, natural Language Processing</i>
+                                <span class="skills__subtitle"><br><br></span>
+                                <a href="https://medium.com/neurotech-africa/audio-classification-using-deep-learning-a6585292c055" class="button button--flex button--small portfolio__button">
+                                    Read here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <!--====================== SKILLS 2 =============================-->
+                     <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-file-alt skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Understanding spacy process pipelines</h1>
+                                <span class="skills__subtitle">May 2022</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <!-- <span class="skills__subtitle">Joakim Bruslund Haurum, Christian Nygaard Daugbjerg, Péter Rohoska, Andrea Coifman, Anne Juhler Hansen & Martin Kraus.<br></span> -->
+                                <i class="skills__subtitle">Spacy, natural Language Processing</i>
+                                <span class="skills__subtitle"><br><br></span>
+                                <a href="https://medium.com/neurotech-africa/understanding-spacy-process-pipelines-fe90890800e4" class="button button--flex button--small portfolio__button">
+                                    Read here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     
+                    <div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--==================== NEWSLETTER ====================-->
+        <section class="newsletter"  id="newsletter">
+            <h2 class="section__title">Blog posts</h2>
+            <span class="section__subtitle">Data Science &amp; Machine Learning topics</span>
+            <div style="text-align:center;">
+                <a href="https://medium.com/@mipawa" class="button button--flex button--small portfolio__button">
+                    Subscribe
+                </a>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <!--=======This feature is skipped for now========-->
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <form method="post" action="https://formspree.io/f/xjvzowpg" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="name" class="contact__label">Name</label>
+                                <input type="text" name="Name" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="email" class="contact__label">Email</label>
+                                <input type="email" name="Email" class="contact__input">
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="project-contact" class="contact__label">Subject</label>
+                            <input type="text" name="Subject" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="message-contact" class="contact__label">Message</label>
+                            <textarea name="Message" cols="0" rows="7" id="message-contact" class="contact__input"></textarea>
+                        </div>
                         
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Zindi - Zindi Junior Data scientist first cohort mentorship program in 2020
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            LinkedIn - Deep Learning: Image Recognition - october 2020
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place Winner - Zindi - Finacial Inclusion In Africa By Zindi Mentorship Program - july 2020
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place Winner - Zindi - Childline Kenya Call Volume Prediction Challenge By Zindi Mentorship Program:
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup> 
-                            Place Winner - Zindi - Tourism Machine Learning Hackathon - December 2020
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup> 
-                            Place Winner - IdeaLab - Heathy Sector AI based Hackathon , with my team members(Elixir) we created AI based system to diagnose Cancer - August - December 2020
-                        </li>
-
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Analytics Vidhya - Introduction to Natural Language Processing using python - December 2020
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                           
-                            LinkedIn -Jodi Glickman on Pitching Yourself - september 2020
-                        </li>
-                       
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            
-                            DataCamp - Fundamentals of Git version control - september  2020
-                        </li>
-                    </ul>
+                        <div>
+                            <button type="submit" class="button button--flex">Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
+                    </form>    
                 </div>
-            </section>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h5 class="footer__title">AM</h5>
+                </div>
+                <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/anthonymipawa/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/Tonyloyt/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://mipawa.medium.com/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-medium-m"></i>
+                        </a>
+                        <a href="https://twitter.com/LoytTony" target="_blank" class="home__social-icon">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Anthony Mipawa. All rights reserved.</p>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scroll__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
